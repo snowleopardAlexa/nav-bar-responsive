@@ -17,5 +17,9 @@ nav {
 }
 
 label.logo {
-
+    color: #fff;
+    font-size: 2rem;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
 }
