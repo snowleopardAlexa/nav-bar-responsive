@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    background-color: blueviolet;
+    background-color: rgb(102, 3, 196);
     height: 90px;
     width: 100%;
 }
@@ -33,4 +33,11 @@ nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    
 }
