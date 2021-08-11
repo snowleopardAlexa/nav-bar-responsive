@@ -82,7 +82,10 @@ a.active, a:hover {
         height: 100vh;
         background: rgb(68, 10, 122);
         top: 80px;
-        left: 0;
+        /* why */
+        left: -100%;
+        transition: all .5s;
+        
         text-align: center;
     }
     nav ul li {
