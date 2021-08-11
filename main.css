@@ -61,3 +61,13 @@ a.active, a:hover {
 #check {
     display: none;
 }
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 2rem;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 1rem;
+    }
+}
