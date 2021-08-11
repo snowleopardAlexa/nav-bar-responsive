@@ -7,12 +7,12 @@
 }
 
 body {
-    font-family: 'Georgia';
+    font-family: 'Cambria'
 }
 
 nav {
     background-color: rgb(102, 3, 196);
-    height: 90px;
+    height: 80px;
     width: 100%;
 }
 
@@ -39,5 +39,11 @@ nav ul li a {
     color: #fff;
     font-size: 1rem;
     text-transform: uppercase;
-    
+    padding: 7px 13px;
+    border-radius: 3px;    
+}
+
+a.active, a:hover {
+    background: rgb(214, 87, 13);
+    transition: .5s;
 }
