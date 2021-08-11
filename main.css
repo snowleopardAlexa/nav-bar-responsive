@@ -9,3 +9,13 @@
 body {
     font-family: 'Georgia';
 }
+
+nav {
+    background-color: blueviolet;
+    height: 90px;
+    width: 100%;
+}
+
+label.logo {
+
+}
