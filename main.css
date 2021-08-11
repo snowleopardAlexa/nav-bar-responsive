@@ -104,3 +104,15 @@ a.active, a:hover {
         left: 0;
     }
 }
+
+section {
+    background: url("img/bobcat.jpg") no-repeat;
+    background-size: cover;
+    /* why */
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: uppercase;
+}
+
